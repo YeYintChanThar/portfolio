@@ -1,0 +1,70 @@
+
+.personal{
+    display: flex;
+    padding:80px 0;
+}
+.personal-data{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    display: inline-block;
+}
+.personal-h2{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin:55px 0;
+}
+.personal-data .first-data{
+    width: 40%;
+}
+.personal-data .second-data{
+    width: 50%;
+}
+.dataOne{
+    display: flex;
+    flex-direction: column;
+}
+.dataTwo{
+    display: flex;
+    flex-direction: column;
+}
+.brief-data{
+    display: flex;
+
+}
+.brief-data ul li{
+    font-size: var(--secondary-fz);
+}
+
+.personal-awards{
+    width:40%;
+}
+.personal-awards .first-div{
+    display: flex;
+}
+.personal-awards .second-div{
+    display: flex;
+}
+.div-one{
+    width: 400px;
+    height: 150px;
+    border:2px solid gray;
+    margin: 25px;
+    position: relative;
+}
+.div-one h2{
+   color:var(--secondary-color);
+   position: absolute;
+   top: 10%;
+   left: 15%;
+}
+.div-one p{
+    color: #000;
+    font-size: var(--secondary-fz);
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+}

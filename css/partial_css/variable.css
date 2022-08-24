@@ -1,0 +1,9 @@
+:root{
+    /* color */
+    --primary-color:#000080;
+    --secondary-color:#f5b209;
+    --third-color: #d9d9d9;
+    /* font-size */
+    --primary-fz:28px;
+    --secondary-fz:20px;
+}

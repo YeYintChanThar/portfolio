@@ -1,0 +1,89 @@
+.timeline{
+    padding-top: 80px;
+}
+.timeline-left-right{
+    display: flex;
+}
+.timeline-h2{
+    padding:10px 20px;
+    background-color: var(--secondary-color);
+    display: inline-block;
+    border-radius: 10px;
+    font-size: var(--secondary-fz);
+    margin-bottom: 55px;
+}
+.timeline-left{
+    display: flex;
+    width: 50%;
+}
+.line-circle{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding-left: 35px;
+}
+.line-1{
+    height: 20px;
+    border-left: 2px solid gray;
+    margin-left:13px ;
+}
+.circle{
+    width: 26px;
+    height: 26px;
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+}
+.line-2{
+    height: 60px;
+    border-left: 2px solid gray;
+    margin-left:13px ;
+}
+.line-3{
+    height: 60px;
+    border-left: 2px solid gray;
+    margin-left:13px ;
+}
+.courses-colleges{
+    margin-left: 55px;
+    width: 60%;
+}
+
+.year-between{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.year-between .year{
+    padding: 10px;
+    background-color:var(--third-color);
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+.year-between .year-1{
+    margin-top: 15px;
+}
+.year-between .year-2{
+    margin-top: 40px;
+}
+.year-between .year-3{
+    margin-top: 36px;
+}
+.course{
+    margin-top: 15px;
+}
+.course-2{
+    margin-top: 50px;
+}
+.course-3{
+    margin-top: 50px;
+}
+.course p{
+    font-weight: lighter;
+}
+.course small{
+    margin:0 auto;
+}
+.timeline-right{
+    display: flex;
+    width: 50%;
+}
