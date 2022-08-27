@@ -32,3 +32,10 @@ hr{
     color: gray;
     margin: auto;
 }
+.center-skill-h2{
+    font-size: var(--primary-fz);
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 30px;
+}

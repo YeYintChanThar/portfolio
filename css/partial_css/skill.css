@@ -1,51 +1,61 @@
+
 .skill{
-    padding: 25px;
-}
-.skill-container{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(4,180px);
-    grid-gap: 80px;
-    pad: 60px;
-    margin: auto;
-}
-.skill h3{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.first-skill{
-    display: flex;
-    margin-top: 55px;
-}
-.first-skill .skill-1,.skill-2{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-.box{
-    width: 100%;
-    display: inline;
-}
-.box h4{
-    display: block;
-    text-align: center;
-    color: #000;
-    font-size: 2em;
-}
-.box .chart{
+    width: 160px;
+    height:160px;
     position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 160px;
-    color: #000;
 }
-.box canvas{
+.outer{
+    height: 160px;
+    width: 160px;
+    padding: 20px;
+    border-radius:50% ;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),inset
+                -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                -0.5px -0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+    border-radius:50%;
+}
+#number{
+    font-weight: 600;
+    color: #555;
+    font-size: 25px;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 100;
+    animation: anim 2s linear forwards;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 157.5;
+    }
+}
+.skill-percent-circle-1
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.skill-percent-circle-2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+svg{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
 }
